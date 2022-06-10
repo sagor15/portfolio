@@ -19,7 +19,7 @@ const Contact = () => {
     };
 
     return (
-        <div>
+        <div id='contact'>
             <h1 className='text-3xl font-bold mt-10'>Contact Us</h1>
         <div class="card mb-10 m-auto mt-16 flex-shrink-0 w-full max-w-2xl shadow-2xl bg-base-100">
       <div class="card-body">

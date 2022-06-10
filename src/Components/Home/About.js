@@ -3,7 +3,7 @@ import profile from "../../asset/profile.jpg";
 
 const About = () => {
     return (
-        <div style={{ backgroundColor: '#212529' }}>
+        <section id='about' style={{ backgroundColor: '#212529' }}>
             <h1 className='text-3xl text-white font-bold mt-4'>About</h1>
             <div className=' grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center' >
 
@@ -12,7 +12,7 @@ const About = () => {
                         <img src={profile} />
                     </div>
                 </div>
-                <div className='mb-5'>
+                <div className='mb-10'>
                     <h1 className='text-2xl font-bold text-center text-white opacity-100'>Md Sagor Ahammed</h1>
                     <h3 className='text-xl mt-2  text-dark text-center text-sky-500 opacity-100'>Junior Web Developer</h3>
                     <p className='text-xl text-white'>HI, I am Sagor. I’m a Full-stack Developer. I can see myself in a top-ranking position in the web developing
@@ -22,7 +22,7 @@ const About = () => {
                 </div>
 
             </div>
-        </div>
+        </section>
 
     );
 };
